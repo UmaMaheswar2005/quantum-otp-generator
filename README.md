@@ -49,11 +49,11 @@ npm install
 npm run dev
 ```
 ## 🔐 Security & Production
-# Environment Variables:
+**Environment Variables:**
  All API keys are managed via .env files and excluded from version control via .gitignore.
 
-# Hardware Routing: 
+**Hardware Routing:** 
 Uses service.least_busy() to automatically route requests to the most available operational quantum node.
 
-# CORS Middleware: 
+**CORS Middleware:**
 Secured FastAPI endpoints to allow requests only from the verified frontend origin.
