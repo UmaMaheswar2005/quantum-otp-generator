@@ -48,7 +48,7 @@ npm install
 # Start the development server
 npm run dev
 ```
-🔐 Security & Production
+## 🔐 Security & Production
 Environment Variables: All API keys are managed via .env files and excluded from version control via .gitignore.
 
 Hardware Routing: Uses service.least_busy() to automatically route requests to the most available operational quantum node.
